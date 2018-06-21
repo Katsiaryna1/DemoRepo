@@ -15,5 +15,9 @@ public class LoginPage extends TestBase{
     @FindBy(name="password")
     WebElement password;
 
+    public void searchPage(){
+        System.out.println("Searcg page");
+    }
+
 
 }
